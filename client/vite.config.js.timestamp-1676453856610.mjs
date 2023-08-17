@@ -1,0 +1,17 @@
+// vite.config.js
+import { defineConfig } from "file:///D:/Office%20Work/BlocTec%20Work/crypto-west/client/node_modules/vite/dist/node/index.js";
+import react from "file:///D:/Office%20Work/BlocTec%20Work/crypto-west/client/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import inject from "file:///D:/Office%20Work/BlocTec%20Work/crypto-west/client/node_modules/@rollup/plugin-inject/dist/es/index.js";
+var vite_config_default = defineConfig({
+  plugins: [react()],
+  define: {
+    "process.env": {},
+  },
+  build: {
+    rollupOptions: {
+      plugins: [inject({ Buffer: ["buffer", "Buffer"] })],
+    },
+  },
+});
+export { vite_config_default as default };
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJEOlxcXFxPZmZpY2UgV29ya1xcXFxCbG9jVGVjIFdvcmtcXFxcY3J5cHRvLXdlc3RcXFxcY2xpZW50XCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCJEOlxcXFxPZmZpY2UgV29ya1xcXFxCbG9jVGVjIFdvcmtcXFxcY3J5cHRvLXdlc3RcXFxcY2xpZW50XFxcXHZpdGUuY29uZmlnLmpzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9EOi9PZmZpY2UlMjBXb3JrL0Jsb2NUZWMlMjBXb3JrL2NyeXB0by13ZXN0L2NsaWVudC92aXRlLmNvbmZpZy5qc1wiO2ltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gXCJ2aXRlXCI7XHJcbmltcG9ydCByZWFjdCBmcm9tIFwiQHZpdGVqcy9wbHVnaW4tcmVhY3RcIjtcclxuaW1wb3J0IGluamVjdCBmcm9tIFwiQHJvbGx1cC9wbHVnaW4taW5qZWN0XCI7XHJcblxyXG4vLyBodHRwczovL3ZpdGVqcy5kZXYvY29uZmlnL1xyXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xyXG4gIHBsdWdpbnM6IFtyZWFjdCgpXSxcclxuICBkZWZpbmU6IHtcclxuICAgIFwicHJvY2Vzcy5lbnZcIjoge30sXHJcbiAgfSxcclxuICBidWlsZDoge1xyXG4gICAgcm9sbHVwT3B0aW9uczoge1xyXG4gICAgICBwbHVnaW5zOiBbaW5qZWN0KHsgQnVmZmVyOiBbXCJidWZmZXJcIiwgXCJCdWZmZXJcIl0gfSldLFxyXG4gICAgfSxcclxuICB9LFxyXG59KTtcclxuIl0sCiAgIm1hcHBpbmdzIjogIjtBQUEwVSxTQUFTLG9CQUFvQjtBQUN2VyxPQUFPLFdBQVc7QUFDbEIsT0FBTyxZQUFZO0FBR25CLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzFCLFNBQVMsQ0FBQyxNQUFNLENBQUM7QUFBQSxFQUNqQixRQUFRO0FBQUEsSUFDTixlQUFlLENBQUM7QUFBQSxFQUNsQjtBQUFBLEVBQ0EsT0FBTztBQUFBLElBQ0wsZUFBZTtBQUFBLE1BQ2IsU0FBUyxDQUFDLE9BQU8sRUFBRSxRQUFRLENBQUMsVUFBVSxRQUFRLEVBQUUsQ0FBQyxDQUFDO0FBQUEsSUFDcEQ7QUFBQSxFQUNGO0FBQ0YsQ0FBQzsiLAogICJuYW1lcyI6IFtdCn0K
